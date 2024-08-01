@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beatS - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+
+        <div class="left ">
+            <div class="close">
+                <img src="img/close.svg" alt="close">
+            </div>
+            <div class="home p-1 bg-grey m-1 rounded">
+                <div class="logo flex items-center">
+                    <img width="55" height="55" class="m-2 invert" src="img/sanGeet_logo.png" alt="logo">
+                    <p class=" logo-img">beat</p>
+                    <p class=" logo-img-s">S</p>
+                </div>
+                <ul>
+                    <li class="flex items-center"><img class="" src="img/home.svg" alt="home"><a class="anchor"
+                            href="/about us.htm">Home</a></li>
+                    <li class="flex items-center"><img class="" src="img/search.svg" alt="search"><a class="anchor"
+                            href="/about us.htm">About us</a></li>
+                </ul>
+            </div>
+
+
+            <div class="library p-1 bg-grey m-1 rounded">
+                <div class="heading">
+                    <img class="invert" src="img/library.svg" alt="library">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <a href="docs/legal.docx" id="" data-encore-id="textLink">
+                        <span data-encore-id="type">Legal</span>
+                    </a>
+
+                    <a href="docs/privacy policy.docx" id="" data-encore-id="textLink">
+                        <span data-encore-id="type">Privacy Policy</span>
+                    </a>
+
+                    <a href="docs/cookies.docx" id="" data-encore-id="textLink">
+                        <span data-encore-id="type">Cookies</span>
+                    </a>
+
+                    <a href="docs/about ads.docx" id="" data-encore-id="textLink">
+                        <span data-encore-id="type">About Ads</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header rounded">
+                <div class="navbar flex justify-center items-center">
+                    <div class="hamburgerContainer flex justify-center items-center">
+                        <img class="invert hamburger" src="img/hamburger.svg" alt="hamburger">
+
+
+
+                        <div class="mob-nav">
+                            <img width="45" height="45" class="m-2 invert" src="img/sanGeet_logo.png" alt="logo">
+                            <p class=" logo-img">beat</p>
+                            <p class=" logo-img-s">S</p>
+                        </div>
+
+
+
+                        <svg class="left-arrow invert" xmlns="http://www.w3.org/2000/svg" width="32" height="32" id="left-arrow">
+                            <path
+                                d="m12.3 17.71 6.486 6.486a1 1 0 0 0 1.414-1.414L14.418 17l5.782-5.782a1 1 0 0 0-1.414-1.414L12.3 16.29a.997.997 0 0 0-.292.71c0 .258.096.514.292.71z">
+                            </path>
+                        </svg>
+
+                        <svg class="right-arrow invert" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 32 32" id="right-arrow">
+                            <path
+                                d="M13.8 24.196a1 1 0 0 0 1.414 0L21.7 17.71a.992.992 0 0 0 .292-.71.997.997 0 0 0-.292-.71l-6.486-6.486a1 1 0 0 0-1.414 1.414L19.582 17 13.8 22.782a1 1 0 0 0 0 1.414z">
+                            </path>
+                        </svg>
+                    </div>
+
+
+                </div>
+                <div class="buttons flex items-center">
+                    <a href="/signup/index.html"><button class="signupbtn">Sign up</button></a>
+                    <a href="/login/index.html"> <button class="loginbtn">Log in</button> </a>
+                    
+                </div>
+            </div>
+            <div class="sangeetplaylist">
+                <div class="flex justify-center items-center"><h2 class="h2-1">beat<h2 class="h2-2">S</h2></h2>
+                    <h2>-playlist</h2></div>
+
+                <div class="cards-container">
+
+                </div>
+
+                <div class="playbar">
+
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+
+                    <div class="aboveBar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons  flex justify-center items-center">
+                            <img id="previous" src="img/prevsong.svg" alt="previous button">
+                            <img id="play" src="img/play.svg" alt="play button">
+                            <img id="next" src="img/nextsong.svg" alt="next button">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img class="invert" src="img/volume.svg" alt="volume">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
